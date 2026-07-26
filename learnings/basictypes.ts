@@ -1,0 +1,11 @@
+let id: number = 5;
+let userName: string = "John Doe";
+let isActive: boolean = true;
+let list : number[] = [1, 2, 3, 4, 5];
+let tuple: [number, string] = [1, "Hello"];
+let anything: any = "I can be anything";
+let notSure: unknown = "I can be anything but I";
+let empty: void = undefined;
+let nothing: null = null;
+let notDefined: undefined = undefined;
+let fail: never = (() => { throw new Error("This function never returns"); })();

@@ -1,0 +1,11 @@
+var id = 5;
+var userName = "John Doe";
+var isActive = true;
+var list = [1, 2, 3, 4, 5];
+var tuple = [1, "Hello"];
+var anything = "I can be anything";
+var notSure = "I can be anything but I";
+var empty = undefined;
+var nothing = null;
+var notDefined = undefined;
+var fail = (function () { throw new Error("This function never returns"); })();
